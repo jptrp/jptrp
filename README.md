@@ -52,7 +52,9 @@ I build enterprise-grade test automation frameworks that scale. My focus is on c
 
 ---
 
-### 🧪 [Website Functional Testing Agent](https://github.com/jptrp/website-functional-testing-agent)
+-### 🧪 [Website Functional Testing Agent](https://github.com/jptrp/website-functional-testing-agent)
+![Agent Smoke Test](https://github.com/jptrp/website-functional-testing-agent/actions/workflows/agent-ci.yml/badge.svg) ![npm](https://img.shields.io/npm/v/website-functional-testing-agent) ![License](https://img.shields.io/github/license/jptrp/website-functional-testing-agent) ![GitHub stars](https://img.shields.io/github/stars/jptrp/website-functional-testing-agent) ![GitHub issues](https://img.shields.io/github/issues/jptrp/website-functional-testing-agent)
+
 **A fully autonomous, browser-driven smoke-testing agent built with Playwright**
 
 - ✅ 10-step deterministic smoke test
