@@ -54,7 +54,7 @@ I build enterprise-grade test automation frameworks that scale. My focus is on c
 ---
 
 ### 🧪 [Website Functional Testing Agent](https://github.com/jptrp/website-functional-testing-agent)
-![Agent Smoke Test](https://github.com/jptrp/website-functional-testing-agent/actions/workflows/agent-ci.yml/badge.svg) ![GitHub stars](https://img.shields.io/github/stars/jptrp/website-functional-testing-agent) ![GitHub issues](https://img.shields.io/github/issues/jptrp/website-functional-testing-agent) ![License](https://img.shields.io/github/license/jptrp/website-functional-testing-agent)
+![Agent Smoke Test](https://github.com/jptrp/website-functional-testing-agent/actions/workflows/agent-ci.yml/badge.svg) ![GitHub stars](https://img.shields.io/github/stars/jptrp/website-functional-testing-agent) ![GitHub issues](https://img.shields.io/github/issues/jptrp/website-functional-testing-agent)
 
 **A fully autonomous, browser-driven smoke-testing agent built with Playwright**
 
@@ -69,34 +69,45 @@ I build enterprise-grade test automation frameworks that scale. My focus is on c
 
 **Stack**: Playwright Test, TypeScript, Chromium, GitHub Actions
 
-## 📊 Portfolio Statistics
+-## 📊 Portfolio Statistics
 
+```text
+Total Projects:          3 production-ready frameworks
+Total Lines of Code:     7,700+
+Total Test Cases:        55+
+Performance Requests:    154,000+ executed
+Documentation:           2,470+ lines
+CI/CD Pipelines:         3 (GitHub Actions)
+Tech Stack:              TypeScript, Playwright, Cypress, k6, OWASP ZAP, Docker
 ```
 
 ---
 
+### Test Automation
 
-**Test Automation**
 - API Testing (REST, GraphQL, JSON Schema Validation)
 - E2E Testing (Web UI, cross-browser, mobile-responsive)
 - Performance Testing (load, stress, spike, soak)
 - Security Testing (OWASP ZAP, vulnerability scanning)
 
-**Languages & Frameworks**
+### Languages & Frameworks
+
 - TypeScript/JavaScript (ES6+, async/await, strict mode)
 - Playwright Test Framework
 - Cypress Test Framework
 - k6 Load Testing Tool
 - Node.js & npm ecosystem
 
-**Architecture & Patterns**
+### Architecture & Patterns
+
 - Page Object Model (POM)
 - Test Data Management (fixtures, data-driven testing)
 - Custom Commands & Utilities
 - Modular Test Design
 - CI/CD Integration
 
-**DevOps & Tools**
+### DevOps & Tools
+
 - GitHub Actions (workflows, parallelization, artifacts)
 - Docker (containerization, multi-stage builds)
 - Git (version control, branching strategies)
@@ -107,13 +118,19 @@ I build enterprise-grade test automation frameworks that scale. My focus is on c
 
 ## 🏆 Key Achievements
 
+
 ### Real-World Problem Resolution
+
 Diagnosed and resolved upstream API dependency failure (reqres.in authentication issue) by leading a complete migration to JSONPlaceholder. Updated 6 files (tests, CI, docs, configs) simultaneously while maintaining 100% test integrity. **Result**: Restored CI reliability with 60% improved response times.
 
+ 
 ### Performance Engineering at Scale
+
 Designed and executed three-tier performance testing strategy validating system under realistic and extreme load. Stress tested to **100 concurrent users** with **zero failures**, demonstrating **95% headroom** below performance thresholds (p(95) = 67ms vs 1500ms target).
 
+ 
 ### Test Automation Framework Design
+
 Built enterprise-grade Cypress framework with strict TypeScript + POM pattern. Implemented parallel execution (2 containers) reducing test time by 50%. Delivered 25+ test cases with 100% maintainability through production-grade architecture.
 
 ---
