@@ -47,31 +47,31 @@ I build enterprise-grade test automation frameworks that scale. My focus is on c
 ![Load Tests](https://img.shields.io/badge/load%20test-154k%2B%20requests-brightgreen)
 ![Throughput](https://img.shields.io/badge/throughput-257%20req%2Fs-blue)
 
-- ⚡ **154,553 requests** executed at **257 req/sec** with **0% failure rate**
-- ✅ Three-tier performance testing: smoke (30s), load (6m), stress (10m to 100 VUs)
-- ✅ OWASP ZAP baseline security scanning with HTML reports
-- ✅ Docker-based execution (no local dependencies)
-- ✅ Custom metrics, thresholds, and formatted output
 
 **Stack**: k6, OWASP ZAP, Docker, JSONPlaceholder API, GitHub Actions
 
 ---
 
+### 🧪 [Website Functional Testing Agent](https://github.com/jptrp/website-functional-testing-agent)
+**A fully autonomous, browser-driven smoke-testing agent built with Playwright**
+
+- ✅ 10-step deterministic smoke test
+- ✅ Real Chromium browser execution
+- ✅ Console error monitoring
+- ✅ Clickable element detection + interaction
+- ✅ Navigation validation
+- ✅ Automated form handling
+- ✅ JSON + text summaries
+- ✅ GitHub Actions CI workflow with artifact publishing
+
+**Stack**: Playwright Test, TypeScript, Chromium, GitHub Actions
+
 ## 📊 Portfolio Statistics
 
-```
-Total Projects:          3 production-ready frameworks
-Total Lines of Code:     7,700+
-Total Test Cases:        55+
-Performance Requests:    154,000+ executed
-Documentation:           2,470+ lines
-CI/CD Pipelines:         3 (GitHub Actions)
-Tech Stack:              TypeScript, Playwright, Cypress, k6, OWASP ZAP, Docker
 ```
 
 ---
 
-## 💼 Technical Skills
 
 **Test Automation**
 - API Testing (REST, GraphQL, JSON Schema Validation)
