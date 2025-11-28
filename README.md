@@ -49,99 +49,26 @@ flowchart TB
 
 ---
 
-# 🧩 Portfolio Projects (Curated — 5 Repos)
+# 🧩 Portfolio Projects
 
----
+## 📊 Project Matrix
 
-## 1️⃣ WebdriverIO + TypeScript — UI Automation (Flagship)
-🔗 https://github.com/jptrp/saucedemo-wdio-automation  
+| # | Project | Tech Stack | Key Capabilities | Links |
+|---|---------|------------|------------------|-------|
+| ⭐ | **WebdriverIO UI Automation**<br/>*Flagship framework* | ![WDIO](https://img.shields.io/badge/WDIO-EA5906?logo=webdriverio&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) ![Allure](https://img.shields.io/badge/Allure-FF45A0?logoColor=white) | • POM Architecture<br/>• 3 Test Suites (Smoke/Regression/E2E)<br/>• CI/CD + Allure Reports<br/>• ESLint/Prettier/Husky | [Repo](https://github.com/jptrp/saucedemo-wdio-automation) • [CI](https://github.com/jptrp/saucedemo-wdio-automation/actions) • [Reports](https://jptrp.github.io/saucedemo-wdio-automation/) |
+| 2 | **API Testing**<br/>*Contract validation* | ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white) ![Newman](https://img.shields.io/badge/Newman-FF6C37?logoColor=white) | • 11-endpoint suite<br/>• JSON schema validation<br/>• Negative testing<br/>• CI-ready | [Repo](https://github.com/jptrp/saucedemo-api-testing-postman) |
+| 3 | **Playwright UI**<br/>*Modern automation* | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) | • Cross-browser testing<br/>• Trace viewer<br/>• Deterministic selectors<br/>• Fast execution | [Repo](https://github.com/jptrp/saucedemo-playwright) |
+| 4 | **Cypress UI**<br/>*Developer experience* | ![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) | • Fast dev cycles<br/>• Custom commands<br/>• Strong debugging<br/>• Time-travel debugging | [Repo](https://github.com/jptrp/cypress-ui-saucedemo-automation) |
+| 5 | **Performance + Security**<br/>*Non-functional testing* | ![k6](https://img.shields.io/badge/k6-7D64FF?logo=k6&logoColor=white) ![ZAP](https://img.shields.io/badge/OWASP_ZAP-0033A0?logoColor=white) | • Load testing with thresholds<br/>• ZAP baseline scanning<br/>• Combined perf + security<br/>• CI integration | [Repo](https://github.com/jptrp/k6-zap-perfsec-automation) |
 
-**Badges:**  
-![CI](https://github.com/jptrp/saucedemo-wdio-automation/actions/workflows/test.yml/badge.svg)  
-![WebdriverIO](https://img.shields.io/badge/WebdriverIO-EA5906?logo=webdriverio&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Allure](https://img.shields.io/badge/Allure-FF45A0?logo=allure&logoColor=white)
-![POM](https://img.shields.io/badge/Framework-POM-yellow)
+### 🎯 What This Demonstrates
 
-**Highlights**
-- Clean **POM architecture**
-- Smoke, Regression & E2E suites  
-- Custom utilities (waits, helpers, logger)
-- ESLint, Prettier, Husky  
-- Allure reporting (GitHub Pages)
-- Screenshots on failure
-- Chrome headless CI via GitHub Actions  
-
-> Demonstrates senior-level automation framework ownership.
-
----
-
-## 2️⃣ API Testing — Postman + Newman
-🔗 https://github.com/jptrp/saucedemo-api-testing-postman  
-
-Badges:  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-![API](https://img.shields.io/badge/Testing-API-orange)
-
-**Highlights**
-- 11-endpoint suite  
-- JSON schema validation  
-- Token chaining  
-- Negative testing  
-- CI-ready design  
-
-> Demonstrates API test strategy and contract validation.
-
----
-
-## 3️⃣ Playwright UI Automation
-🔗 https://github.com/jptrp/saucedemo-playwright  
-
-Badges:  
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-
-**Highlights**
-- Modern cross-browser tests  
-- Trace viewer, screenshots  
-- Deterministic selectors  
-- Fast execution  
-
-> Demonstrates mastery of modern UI frameworks.
-
----
-
-## 4️⃣ Cypress UI Automation
-🔗 https://github.com/jptrp/cypress-ui-saucedemo-automation  
-
-Badges:  
-![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-
-**Highlights**
-- Fast dev cycles  
-- Custom commands  
-- Solid debugging surface  
-
-> Demonstrates breadth across multiple automation stacks.
-
----
-
-## 5️⃣ Performance + Security Testing (k6 + OWASP ZAP)
-🔗 https://github.com/jptrp/k6-zap-perfsec-automation  
-
-Badges:  
-![k6](https://img.shields.io/badge/k6-7D64FF?logo=k6&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-0033A0?logo=owasp&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Testing-red)
-![Performance](https://img.shields.io/badge/Performance-Load_Testing-green)
-
-**Highlights**
-- Load tests with thresholds  
-- ZAP baseline scan  
-- Combined perf + security workflows  
-
-> Demonstrates non-functional testing — a rare SDET differentiator.
+- **UI Automation Mastery** → 3 modern frameworks (WDIO, Playwright, Cypress)
+- **API Testing Expertise** → Schema validation, contract testing, CI/CD
+- **Non-Functional Testing** → Performance + Security (rare SDET skill)
+- **Framework Design** → POM, utilities, clean abstractions
+- **CI/CD Engineering** → GitHub Actions, reporting, automation pipelines
+- **Production Standards** → ESLint, Prettier, TypeScript, comprehensive docs
 
 ---
 
