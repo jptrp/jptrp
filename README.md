@@ -1,7 +1,7 @@
-<div align="center">
+# 🏗️ Dustin Braun  
+## Senior SDET / QA Automation Engineer Portfolio
 
-# 🏗️ Dustin Braun
-## SDET / QA Automation Engineer Portfolio
+<div align="center">
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![WebdriverIO](https://img.shields.io/badge/WebdriverIO-EA5906?style=flat&logo=webdriverio&logoColor=white)
@@ -10,7 +10,7 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
-**High-impact automation projects** • UI | API | Performance | Security
+### Senior-level automated testing frameworks built with modern engineering practices — designed for reliability, clarity, and velocity.
 
 </div>
 
@@ -18,204 +18,177 @@
 
 ## 🔥 Welcome
 
-I build **clean, modern, production-ready automated testing frameworks** — and I specialize in bringing clarity to complexity.
+I engineer **automation systems**, not scripts.
 
-### 🎯 Core Expertise
+My frameworks are built for:
+- High signal, low noise  
+- CI/CD stability  
+- Zero-flake execution  
+- Fast iteration  
+- Clean abstractions  
+- Test strategy clarity  
 
-- **UI Automation** → WebdriverIO, Playwright, Cypress
-- **API Automation** → Postman/Newman, Playwright API  
-- **Performance Testing** → k6, Load Test Patterns
-- **Security Testing** → OWASP ZAP + CI Integration
-- **Framework Design** → POM, Abstraction, Utilities, Cross-Browser
-- **CI/CD Integration** → GitHub Actions, Docker
-
-### ✨ My Approach
-
-| Principle | Focus |
-|-----------|-------|
-| ✅ **Reliability** | Predictable, flake-free tests |
-| 📖 **Readability** | Clean code over cleverness |
-| 🔧 **Maintainability** | Sustainable architecture |
-| 🚀 **Velocity** | Fast iteration loops |
-| 🎯 **Stability** | Robust CI/CD pipelines |
+Every repository in this portfolio reflects **real engineering standards**, not classroom demos.
 
 ---
 
-## 🧩 Portfolio Projects
+# 🧩 Portfolio Architecture (Overview)
 
-> Each repository represents a different dimension of SDET capability
+            ┌────────────────────────────────────┐
+            │       Dustin Braun Portfolio        │
+            │        (SDET / Automation)          │
+            └────────────────────────────────────┘
+                         │
 
----
-
-### 1️⃣ WebdriverIO + TypeScript — UI Automation ⭐
-
-**🔗 Repository:** [saucedemo-wdio-automation](https://github.com/jptrp/saucedemo-wdio-automation)
-
-**🛠️ Tech Stack:** WebdriverIO • TypeScript • Allure • GitHub Actions
-
-**✨ Highlights:**
-- ✅ Clean **Page Object Model** architecture
-- 🧪 **3 test suites**: Smoke, Regression, E2E
-- 🛠️ Custom utilities: waits, helpers, logger
-- 📝 **ESLint + Prettier** + Husky pre-commit hooks
-- 📊 **Allure reporting** with GitHub Pages deployment
-- 📸 Screenshot capture on test failure
-- 🔄 Fully automated **CI/CD pipeline**
-- 📚 Comprehensive TypeScript typing & documentation
-
-> **Impact:** Demonstrates framework ownership and end-to-end automation engineering
+┌────────────────────────────────────────────────────────────────┐
+│            Core Automation Domains                             │
+└────────────────────────────────────────────────────────────────┘
+│               │                  │             │
+▼               ▼                  ▼             ▼
+┌────────────┐   ┌───────────────┐   ┌───────────┐   ┌──────────────┐
+│ UI Testing │   │ API Testing   │   │ Performance│   │ Security      │
+│ WDIO       │   │ Postman        │   │ k6         │   │ OWASP ZAP     │
+│ Playwright │   │ Newman         │   │ Thresholds │   │ CI Baseline   │
+│ Cypress    │   │ Schema Tests   │   │ CI Load    │   │ Security Scan │
+└────────────┘   └───────────────┘   └───────────┘   └──────────────┘
 
 ---
 
-### 2️⃣ API Testing — Postman + Newman
-
-**🔗 Repository:** [saucedemo-api-testing-postman](https://github.com/jptrp/saucedemo-api-testing-postman)
-
-**🛠️ Tech Stack:** Postman • Newman • JSON Schema Validation • GitHub Actions
-
-**✨ Highlights:**
-- ✅ **11-endpoint** comprehensive API test suite
-- 🔍 JSON **schema validation** + negative testing
-- ⚡ Performance **response time thresholds**
-- 🔗 Token chaining & environment variables
-- 🔄 GitHub Actions **CI/CD integration**
-- 📁 Clean, organized folder structure
-
-> **Impact:** Demonstrates API test design, contract validation, and pipeline-driven quality
+# 🧩 Portfolio Projects (Curated — 5 Repos)
 
 ---
 
-### 3️⃣ Playwright UI Automation
+## 1️⃣ WebdriverIO + TypeScript — UI Automation (Flagship)
+🔗 https://github.com/jptrp/saucedemo-wdio-automation  
 
-**🔗 Repository:** [saucedemo-playwright](https://github.com/jptrp/saucedemo-playwright)
+**Badges:**  
+![CI](https://github.com/jptrp/saucedemo-wdio-automation/actions/workflows/test.yml/badge.svg)  
+![WebdriverIO](https://img.shields.io/badge/WebdriverIO-EA5906?logo=webdriverio&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Allure](https://img.shields.io/badge/Allure-FF45A0?logo=allure&logoColor=white)
+![POM](https://img.shields.io/badge/Framework-POM-yellow)
 
-**🛠️ Tech Stack:** Playwright • TypeScript • Test Fixtures
+**Highlights**
+- Clean **POM architecture**
+- Smoke, Regression & E2E suites  
+- Custom utilities (waits, helpers, logger)
+- ESLint, Prettier, Husky  
+- Allure reporting (GitHub Pages)
+- Screenshots on failure
+- Chrome headless CI via GitHub Actions  
 
-**✨ Highlights:**
-- ⚡ Modern, **fast** browser automation
-- 🎯 Reliable, deterministic UI tests
-- 📝 First-class **TypeScript** support
-- 🌐 **Cross-browser** compatibility (Chrome, Firefox, Safari)
-- 📸 Screenshot & trace artifacts for debugging
-
-> **Impact:** Showcases modern automation craftsmanship with cutting-edge tools
-
----
-
-### 4️⃣ Cypress UI Automation
-
-**🔗 Repository:** [cypress-ui-saucedemo-automation](https://github.com/jptrp/cypress-ui-saucedemo-automation)
-
-**🛠️ Tech Stack:** Cypress • TypeScript
-
-**✨ Highlights:**
-- 🚀 Fast, **repeatable** test execution
-- 🐛 Strong **debugging** workflows
-- 🔧 Custom commands + fixtures
-- 👀 Excellent visibility into test failures
-
-> **Impact:** Demonstrates breadth across multiple automation frameworks
+> Demonstrates senior-level automation framework ownership.
 
 ---
 
-### 5️⃣ Performance + Security Testing
+## 2️⃣ API Testing — Postman + Newman
+🔗 https://github.com/jptrp/saucedemo-api-testing-postman  
 
-**🔗 Repository:** [k6-zap-perfsec-automation](https://github.com/jptrp/k6-zap-perfsec-automation)
+Badges:  
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
+![API](https://img.shields.io/badge/Testing-API-orange)
 
-**🛠️ Tech Stack:** k6 • OWASP ZAP • GitHub Actions
+**Highlights**
+- 11-endpoint suite  
+- JSON schema validation  
+- Token chaining  
+- Negative testing  
+- CI-ready design  
 
-**✨ Highlights:**
-- 📈 **Load testing** with performance thresholds
-- 🔒 **OWASP ZAP** baseline security scanning
-- 🔄 Automated **CI/CD** security & performance checks
-- 📊 Combined performance + security reporting
-
-> **Impact:** Non-functional testing expertise — a key differentiator for modern SDET roles
-
----
-
-## 🧠 Test Automation Philosophy
-
-> *"Automation is not about writing tests — it's about enabling velocity."*
-
-My philosophy centers on:
-
-```
-🎯 Predictable, flake-free tests
-🧩 Clean POM abstractions
-♻️  Reusable utility layers
-📖 Readability over cleverness
-⚡ Fast iteration loops
-🔄 Stable CI/CD pipelines
-```
-
-**I build frameworks that reduce complexity so teams can focus on shipping features safely.**
+> Demonstrates API test strategy and contract validation.
 
 ---
 
-## 🛠️ Technical Skills
+## 3️⃣ Playwright UI Automation
+🔗 https://github.com/jptrp/saucedemo-playwright  
 
-<table>
-<tr>
-<td valign="top" width="33%">
+Badges:  
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
-### Languages
-- TypeScript
-- JavaScript
-- Python
+**Highlights**
+- Modern cross-browser tests  
+- Trace viewer, screenshots  
+- Deterministic selectors  
+- Fast execution  
 
-### UI Automation
-- WebdriverIO
-- Playwright
-- Cypress
-- Selenium (legacy)
-
-</td>
-<td valign="top" width="33%">
-
-### API Testing
-- Postman / Newman
-- Playwright API
-- REST patterns
-- JSON schema validation
-
-### Performance / Security
-- k6 load testing
-- OWASP ZAP
-- CI security baselines
-
-</td>
-<td valign="top" width="34%">
-
-### CI/CD & DevOps
-- GitHub Actions
-- Docker
-- Node automation
-
-### Design Patterns
-- Page Object Model
-- Test data strategies
-- Layered utilities
-- Assertions & validation
-- Test isolation & fixtures
-
-</td>
-</tr>
-</table>
+> Demonstrates mastery of modern UI frameworks.
 
 ---
 
-## 📫 Contact
+## 4️⃣ Cypress UI Automation
+🔗 https://github.com/jptrp/cypress-ui-saucedemo-automation  
+
+Badges:  
+![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+
+**Highlights**
+- Fast dev cycles  
+- Custom commands  
+- Solid debugging surface  
+
+> Demonstrates breadth across multiple automation stacks.
+
+---
+
+## 5️⃣ Performance + Security Testing (k6 + OWASP ZAP)
+🔗 https://github.com/jptrp/k6-zap-perfsec-automation  
+
+Badges:  
+![k6](https://img.shields.io/badge/k6-7D64FF?logo=k6&logoColor=white)
+![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-0033A0?logo=owasp&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Testing-red)
+![Performance](https://img.shields.io/badge/Performance-Load_Testing-green)
+
+**Highlights**
+- Load tests with thresholds  
+- ZAP baseline scan  
+- Combined perf + security workflows  
+
+> Demonstrates non-functional testing — a rare SDET differentiator.
+
+---
+
+# 🧠 Automation Philosophy
+
+> **Automation is an engineering discipline.**
+
+I operate by these principles:
+
+- **Stability > Speed**  
+- **Clarity > Cleverness**  
+- **Architecture > Accumulation**  
+- **Truth in CI > Beauty in IDE**  
+- **Real Coverage > Illusion of Tests**
+
+Automation isn't written to simulate production —  
+it's written to **improve decisions and reduce risk**.
+
+---
+
+# 🛠️ Technical Skills
+
+**Languages:** TS, JS, Python  
+**UI Automation:** WDIO, Playwright, Cypress, Selenium  
+**API Testing:** Postman, Newman, Playwright API  
+**Performance:** k6  
+**Security:** OWASP ZAP  
+**CI/CD:** GitHub Actions, Docker  
+**Architecture:** POM, Fixtures, Utilities, Data Strategies  
+
+---
+
+# 📫 Contact
 
 <div align="center">
 
 **Dustin Braun**  
-QA Automation Engineer / SDET
-
+Senior SDET / QA Automation Engineer  
 📍 Castle Rock, CO  
-📧 [jptrp@icloud.com](mailto:jptrp@icloud.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/dustinbrauntesting/)  
-🐙 [GitHub](https://github.com/jptrp)
+📧 jptrp@icloud.com  
+🔗 https://www.linkedin.com/in/dustinbrauntesting/  
+🐙 https://github.com/jptrp  
 
 </div>
 
@@ -223,15 +196,9 @@ QA Automation Engineer / SDET
 
 <div align="center">
 
-### 🌀 Final Note
+### *This portfolio represents how I think about quality, reliability, and engineering — not just how I write tests.*
 
-*This portfolio represents not just code —*  
-*but the way I think about testing, engineering, and product quality.*
-
-**If you'd like a tailored walkthrough of any repository, I'm happy to provide one.**
-
----
-
-⭐ **Star** this repo if you find it helpful! | 🔄 **Updated:** November 2025
+⭐ Star this repo if you'd like  
+🔄 Updated: November 2025  
 
 </div>
