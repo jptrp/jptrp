@@ -32,25 +32,20 @@ Every repository in this portfolio reflects **real engineering standards**, not 
 
 ---
 
-# 🧩 Portfolio Architecture (Overview)
+## 📦 Portfolio Architecture (Overview)
 
-            ┌────────────────────────────────────┐
-            │       Dustin Braun Portfolio        │
-            │        (SDET / Automation)          │
-            └────────────────────────────────────┘
-                         │
+```mermaid
+flowchart TB
+    A["Dustin Braun Portfolio<br/>(SDET / Automation)"]
+    A --> B["UI Testing<br/>WebdriverIO • Playwright • Cypress"]
+    A --> C["API Testing<br/>Postman • Newman • Schema Validation"]
+    A --> D["Performance<br/>k6 • Thresholds • CI"]
+    A --> E["Security<br/>OWASP ZAP • CI Baseline"]
 
-┌────────────────────────────────────────────────────────────────┐
-│            Core Automation Domains                             │
-└────────────────────────────────────────────────────────────────┘
-│               │                  │             │
-▼               ▼                  ▼             ▼
-┌────────────┐   ┌───────────────┐   ┌───────────┐   ┌──────────────┐
-│ UI Testing │   │ API Testing   │   │ Performance│   │ Security      │
-│ WDIO       │   │ Postman        │   │ k6         │   │ OWASP ZAP     │
-│ Playwright │   │ Newman         │   │ Thresholds │   │ CI Baseline   │
-│ Cypress    │   │ Schema Tests   │   │ CI Load    │   │ Security Scan │
-└────────────┘   └───────────────┘   └───────────┘   └──────────────┘
+    click B "https://github.com/jptrp/saucedemo-wdio-automation" "UI Automation (WDIO)"
+    click C "https://github.com/jptrp/saucedemo-api-testing-postman" "API Testing (Postman)"
+    click D "https://github.com/jptrp/k6-zap-perfsec-automation" "Performance (k6) + Security"
+```
 
 ---
 
