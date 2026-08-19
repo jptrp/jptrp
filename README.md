@@ -1,126 +1,150 @@
-# 🔍 Dustin Braun  
-## Data Validation Lead | Video Analytics & Platform Integrity
-### Quality Engineering • Hardware-in-the-Loop Observability • AI Readiness
+# Dustin Braun
+## Data Validation Lead building evidence-grounded systems
+### Quality engineering · observability · AI evaluation · bounded automation
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
-### Data-driven quality engineering: validating what users see against what telemetry claims, powered by explainable heuristics and evidence-backed findings.
+### I build software that preserves the difference between what happened, what a model inferred, and what actually changed.
 
 </div>
 
 ---
 
-## 🔥 Welcome
+## What I build
 
-I engineer **data validation systems**, not just test scripts.
+My work began in test automation and grew into a broader engineering question:
 
-My work spans:
-- **Data Quality:** Correlating ground truth (video) with telemetry claims  
-- **Observability:** Hardware-in-the-loop testing & alignment  
-- **Automation:** Modern testing frameworks with high signal, low noise  
-- **Integrity:** Explainable heuristics over opaque magic  
-- **Evidence:** Screenshot-backed findings with timestamps & confidence  
+> Can a system make useful judgments without confusing evidence, interpretation, and action?
 
-Every repository in this portfolio reflects **real engineering standards**, not classroom demos.
+I build systems that observe real environments, preserve provenance, evaluate model
+behavior, and verify consequential actions against persisted state. The common thread
+is trust: claims should have evidence, interpretations should remain correctable, and
+software should never report success merely because it intended to do something.
+
+### Current systems work
+
+- **Signal & Noise** — correlates observable reality with telemetry and system claims,
+  producing traceable evidence instead of opaque pass/fail output.
+- **Life OS** — a private, local-first system for human evidence, derived memory,
+  model-assisted inference, and bounded actions with verification receipts.
+- **Evaluation and AgentOps tooling** — exercises assistants as operating systems:
+  retrieval quality, capability selection, mutation verification, and behavioral regressions.
+
+Much of the current work is private by design because it operates on personal evidence.
+The public projects below show the engineering foundations: data validation, video analysis,
+browser automation, API contracts, performance, security, and CI.
 
 ---
 
-## 📦 Portfolio Architecture (Overview)
+## The through-line
 
 ```mermaid
-flowchart TB
-    A["Dustin Braun Portfolio<br/>(Data Validation & Quality)"]
-    A --> B["Data Validation<br/>Screen-to-Events • Telemetry Integrity • Alignment"]
-    A --> C["UI Testing<br/>WebdriverIO • Playwright • Cypress"]
-    A --> D["API Testing<br/>Postman • Newman • Schema Validation"]
-    A --> E["Performance & Security<br/>k6 • OWASP ZAP • CI Integration"]
-
-    click B "https://github.com/jptrp/signal-noise-screen2events" "Data Validation"
-    click C "https://github.com/jptrp/saucedemo-wdio-automation" "UI Automation (WDIO)"
-    click D "https://github.com/jptrp/saucedemo-api-testing-postman" "API Testing (Postman)"
-    click E "https://github.com/jptrp/k6-zap-perfsec-automation" "Performance (k6) + Security"
+flowchart LR
+    A["Observed reality"] --> B["Traceable evidence"]
+    B --> C["Correctable interpretation"]
+    C --> D["Bounded action"]
+    D --> E["Persisted verification"]
+    E -. "new evidence" .-> B
 ```
 
----
-
-# 🧩 Portfolio Projects
-
-## 📊 Project Matrix
-
-| # | Project | Tech Stack | Key Capabilities | Links |
-|---|---------|------------|------------------|-------|
-| ⭐ | **Signal & Noise (Screen-to-Events)**<br/>*Hardware-in-the-loop observability* | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?logoColor=white) ![AWS_S3](https://img.shields.io/badge/AWS_S3-FF9900?logo=amazonaws&logoColor=white) ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?logoColor=white) | • Video-derived state timeline<br/>• Telemetry correlation engine<br/>• Multi-device support (Roku/Apple TV)<br/>• Time alignment & drift estimation<br/>• Evidence-backed findings<br/>• S3/Athena/OpenSearch adapters | [Repo](https://github.com/jptrp/signal-noise-screen2events) |
-| ⭐ | **ERP Test Automation**<br/>*Enterprise system showcase* | ![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white) ![Node](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white) | • MVP ERP (4 modules)<br/>• 190 TestRail test cases<br/>• Feature flags (A/B testing)<br/>• Dual CI/CD (AWS + Azure)<br/>• 90% automation | [Repo](https://github.com/jptrp/cypress-erp-test-automation) |
-| ⭐ | **Video Data Quality Lab**<br/>*ML/AI testing framework* | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![ML](https://img.shields.io/badge/ML-FF6F00?logoColor=white) | • Computer vision testing<br/>• ML model validation<br/>• Video quality metrics<br/>• Automated analysis<br/>• Research-grade | [Repo](https://github.com/jptrp/video-data-quality-lab) |
-| 4 | **WebdriverIO UI Automation**<br/>*Production framework* | ![WDIO](https://img.shields.io/badge/WDIO-EA5906?logo=webdriverio&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) ![Allure](https://img.shields.io/badge/Allure-FF45A0?logoColor=white) | • POM Architecture<br/>• 3 Test Suites (Smoke/Regression/E2E)<br/>• CI/CD + Allure Reports<br/>• ESLint/Prettier/Husky | [Repo](https://github.com/jptrp/saucedemo-wdio-automation) • [CI](https://github.com/jptrp/saucedemo-wdio-automation/actions) • [Reports](https://jptrp.github.io/saucedemo-wdio-automation/) |
-| 5 | **API Testing**<br/>*Contract validation* | ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white) ![Newman](https://img.shields.io/badge/Newman-FF6C37?logoColor=white) | • 11-endpoint suite<br/>• JSON schema validation<br/>• Negative testing<br/>• CI-ready | [Repo](https://github.com/jptrp/saucedemo-api-testing-postman) |
-| 6 | **Playwright UI**<br/>*Modern automation* | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) | • Cross-browser testing<br/>• Trace viewer<br/>• Deterministic selectors<br/>• Fast execution | [Repo](https://github.com/jptrp/saucedemo-playwright) |
-| 7 | **Cypress UI**<br/>*Developer experience* | ![Cypress](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178C6?logo=typescript&logoColor=white) | • Fast dev cycles<br/>• Custom commands<br/>• Strong debugging<br/>• Time-travel debugging | [Repo](https://github.com/jptrp/cypress-ui-saucedemo-automation) |
-| 8 | **Performance + Security**<br/>*Non-functional testing* | ![k6](https://img.shields.io/badge/k6-7D64FF?logo=k6&logoColor=white) ![ZAP](https://img.shields.io/badge/OWASP_ZAP-0033A0?logoColor=white) | • Load testing with thresholds<br/>• ZAP baseline scanning<br/>• Combined perf + security<br/>• CI integration | [Repo](https://github.com/jptrp/k6-zap-perfsec-automation) |
-
-### 🎯 What This Demonstrates
-
-- **Data Validation & Observability** → Correlating ground truth (video) with telemetry claims, aligning timelines, detecting anomalies
-- **Computer Vision & Video Analysis** → State detection, motion analysis, OCR-based signals, explainable heuristics
-- **Telemetry Integrity** → Normalized adapters for S3, Athena, OpenSearch; session/device identity resolution
-- **UI Automation Mastery** → 3 modern frameworks (WDIO, Playwright, Cypress) with POM architecture
-- **API Testing Expertise** → Schema validation, contract testing, normalization pipelines
-- **Non-Functional Testing** → Performance + Security (k6, OWASP ZAP) integrated with CI/CD
-- **Production Standards** → Type-safe design (Pydantic, TypeScript), comprehensive docs, explainable heuristics
+The implementation changes by domain. The boundary does not: observation is not
+inference, inference is not authority, and an attempted action is not a completed one.
 
 ---
 
-# 🧠 Engineering Philosophy
+## Selected public work
 
-> **Data Validation & Automation are engineering disciplines.**
+### [Signal & Noise — Screen-to-Events](https://github.com/jptrp/signal-noise-screen2events)
 
-I operate by these principles:
+Correlates what appeared on a device screen with what application telemetry claims
+happened. It derives independent timelines from video and telemetry, aligns them, and
+produces mismatch reports with timestamps and screenshot evidence.
 
-- **Screen is Truth** → Video is ground truth, telemetry is claims to validate  
-- **Explainability > Opaque Magic** → Deterministic heuristics over ML black boxes  
-- **Evidence-Backed Findings** → Mismatches backed by screenshots, timestamps, confidence scores  
-- **Stability > Speed**  
-- **Clarity > Cleverness**  
-- **Architecture > Accumulation**  
-- **Real Coverage > Illusion of Tests**  
+**Why it matters:** telemetry is useful, but it is still a claim. The user-visible
+experience provides an independent source against which that claim can be tested.
 
-These tools aren't written to simulate production or automate clicks —  
-they're written to **validate claims, detect anomalies, and improve decisions at scale**.
+`Python` · `Pydantic` · `OpenCV` · `state machines` · `timeline correlation`
+
+### [Chrome DevTools Pattern Detector](https://github.com/jptrp/chrome-devtools-pattern-detector)
+
+An MCP server that turns browser telemetry into diagnoses: repeated console failures,
+slow endpoints, broken resources, performance regressions, and heap-growth patterns.
+Each result includes counts, timestamps, and a concrete next step.
+
+**Why it matters:** raw observability creates more data. Useful observability reduces
+the distance between a signal and a justified action.
+
+`TypeScript` · `MCP` · `Chrome DevTools` · `performance` · `diagnostics`
+
+### [Video Data Quality Lab](https://github.com/jptrp/video-data-quality-lab)
+
+A production-style pipeline for simulated streaming events: ETL, dimensional models,
+data contracts, SQL and Python checks, anomaly detection, quality KPIs, and CI artifacts.
+
+**Why it matters:** quality is strongest when it is designed into every transition,
+not added as a final inspection step.
+
+`Python` · `DuckDB` · `Pydantic` · `Pandera` · `FastAPI` · `GitHub Actions`
+
+### [Website Functional Testing Agent](https://github.com/jptrp/website-functional-testing-agent)
+
+A browser-driven agent that executes a deterministic ten-step smoke test and emits
+both machine-readable and human-readable results with meaningful exit codes.
+
+**Why it matters:** autonomy becomes trustworthy when its scope, observations, and
+success conditions are explicit.
+
+`Playwright` · `JavaScript` · `structured reports` · `CI`
 
 ---
 
-# 🛠️ Technical Skills
+## Engineering foundations
 
-**Languages:** Python, TypeScript, JavaScript  
-**Data Validation:** Pydantic, Video Processing, Computer Vision, State Machines, Correlation Engines  
-**Telemetry Adapters:** S3, AWS Athena, OpenSearch, JSONL normalization  
-**UI Automation:** WDIO, Playwright, Cypress, Selenium  
-**API Testing:** Postman, Newman, Playwright API, schema validation  
-**Performance & Security:** k6, OWASP ZAP  
-**CI/CD:** GitHub Actions, Docker  
-**Architecture:** POM, Adapters, Fixtures, Utilities, Data Strategies, Evidence Export  
+The current systems work grew from years of hands-on quality engineering across UI,
+API, data, performance, security, and delivery pipelines.
+
+| Area | Public evidence |
+|---|---|
+| Browser automation | [WebdriverIO](https://github.com/jptrp/saucedemo-wdio-automation) · [Playwright](https://github.com/jptrp/saucedemo-playwright) · [Cypress](https://github.com/jptrp/cypress-ui-saucedemo-automation) |
+| API and contracts | [Postman/Newman](https://github.com/jptrp/saucedemo-api-testing-postman) · [Playwright API](https://github.com/jptrp/playwright-api-petstore-automation) |
+| Performance and security | [k6 + OWASP ZAP](https://github.com/jptrp/k6-zap-perfsec-automation) |
+| Enterprise test strategy | [ERP Test Automation](https://github.com/jptrp/cypress-erp-test-automation) |
 
 ---
 
-# 📫 Contact
+## How I work
+
+- **Evidence before confidence.** A useful claim should be traceable to what supports it.
+- **Interpretation stays correctable.** Model output can be valuable without becoming fact.
+- **Verify the mutation.** Software may claim an action only after persisted state confirms it.
+- **Automation should remove orchestration.** A system should reduce human coordination,
+  not create another machine the human must constantly operate.
+- **Reality gets veto power.** When the model and the observed world disagree, inspect the world.
+
+---
+
+## Working stack
+
+**Languages:** Python, TypeScript, JavaScript<br>
+**Systems:** React, Vite, Next.js, Node.js, FastAPI, REST, MCP<br>
+**Evidence and data:** Pydantic, DuckDB, Pandera, OpenCV, JSONL, state machines<br>
+**Quality:** Playwright, Cypress, WebdriverIO, Postman/Newman, k6, OWASP ZAP<br>
+**Operations:** GitHub Actions, Docker, Vercel, AWS, OpenSearch
+
+---
+
+## Contact
 
 <div align="center">
 
-**Dustin Braun**  
-Data Validation Lead | Video Analytics & Platform Integrity  
-📍 Castle Rock, CO  
-🔍 Focus: Telemetry Integrity, Hardware-in-the-Loop Observability, AI Readiness  
-📧 jptrp@icloud.com  
-🔗 https://www.linkedin.com/in/dustinbrauntesting/  
-🐙 https://github.com/jptrp  
+**Dustin Braun**<br>
+Castle Rock, Colorado<br>
+[Email](mailto:jptrp@icloud.com) · [LinkedIn](https://www.linkedin.com/in/dustinbrauntesting/) · [GitHub](https://github.com/jptrp)
 
 </div>
 
@@ -128,9 +152,6 @@ Data Validation Lead | Video Analytics & Platform Integrity
 
 <div align="center">
 
-### *This portfolio represents how I think about quality, data integrity, reliability, and engineering — from validation systems to test automation.*
-
-⭐ Star this repo if you'd like  
-🔄 Updated: January 2026  
+*Quality engineering for systems that observe, infer, and act.*
 
 </div>
