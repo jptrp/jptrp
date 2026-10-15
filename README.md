@@ -1,6 +1,12 @@
 # Dustin Braun
-## Data Validation Lead building evidence-grounded systems
-### Quality engineering · observability · AI evaluation · bounded automation
+## Software, systems, and a little room to wander
+### Quality engineering · observability · AI evaluation · creative experiments
+
+**[234924875.com — The House](https://234924875.com/)**
+
+I build tools, follow ideas, and make things with AI. Some become software. Some
+become stories, sound, or a strange little world you can spend time in. The House
+is where selected work comes together.
 
 <div align="center">
 
@@ -37,7 +43,21 @@ software should never report success merely because it intended to do something.
 
 Much of the current work is private by design because it operates on personal evidence.
 The public projects below show the engineering foundations: data validation, video analysis,
-browser automation, API contracts, performance, security, and CI.
+browser automation, API contracts, performance, security, and CI. There is room for
+play here, too.
+
+---
+
+## The House
+
+[234924875.com](https://234924875.com/) is an open collection of work developed in
+collaboration with AI. Come in through whatever catches your attention:
+
+- **[House Books](https://234924875.com/books/)** — stories from Apartment 415, with room for the ordinary and the ridiculous.
+- **[The Night Has Lungs](https://234924875.com/night/)** — an imagined world of city sounds, images, and writing, with a [playable sound study](https://234924875.com/score.html) and [public source](https://github.com/jptrp/the-night-has-lungs).
+- **[The Nook](https://234924875.com/nook/)** — voice recordings, music, and room to listen.
+
+Life OS is the private system. The House is where selected work meets the world.
 
 ---
 
@@ -72,14 +92,17 @@ experience provides an independent source against which that claim can be tested
 
 ### [Chrome DevTools Pattern Detector](https://github.com/jptrp/chrome-devtools-pattern-detector)
 
-An MCP server that turns browser telemetry into diagnoses: repeated console failures,
-slow endpoints, broken resources, performance regressions, and heap-growth patterns.
-Each result includes counts, timestamps, and a concrete next step.
+An MCP server for investigating repeated console errors, slow or failed requests,
+broken resources, page performance regressions, and approximate heap growth.
+It helps turn browser observations into a useful next step without treating a
+heap increase as proof of a memory leak.
+
+[Available on npm](https://www.npmjs.com/package/chrome-devtools-pattern-detector).
 
 **Why it matters:** raw observability creates more data. Useful observability reduces
 the distance between a signal and a justified action.
 
-`TypeScript` · `MCP` · `Chrome DevTools` · `performance` · `diagnostics`
+`JavaScript` · `MCP` · `Chrome DevTools` · `performance` · `diagnostics`
 
 ### [Video Data Quality Lab](https://github.com/jptrp/video-data-quality-lab)
 
@@ -144,7 +167,7 @@ API, data, performance, security, and delivery pipelines.
 
 **Dustin Braun**<br>
 Castle Rock, Colorado<br>
-[Email](mailto:jptrp@icloud.com) · [LinkedIn](https://www.linkedin.com/in/dustinbrauntesting/) · [GitHub](https://github.com/jptrp)
+[The House](https://234924875.com/) · [Email](mailto:jptrp@icloud.com) · [LinkedIn](https://www.linkedin.com/in/dustinbrauntesting/) · [GitHub](https://github.com/jptrp)
 
 </div>
 
@@ -152,6 +175,6 @@ Castle Rock, Colorado<br>
 
 <div align="center">
 
-*Quality engineering for systems that observe, infer, and act.*
+*Build something useful. Leave a little room for wonder.*
 
 </div>
